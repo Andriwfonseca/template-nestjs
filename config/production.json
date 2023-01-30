@@ -1,0 +1,16 @@
+{
+    "name": "production",
+    "port": 3000,
+    "prefix": "/name-project",
+    "auth": {
+        "api": [
+            {
+                "user": "name-project",
+                "password": "Gerar um password com 64 caracteres",
+                "roles": [
+                    "API"
+                ]
+            }
+        ]
+    }
+}
